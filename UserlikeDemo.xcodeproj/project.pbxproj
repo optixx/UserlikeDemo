@@ -1,0 +1,412 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* UserlikeDemoAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* UserlikeDemoAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		630BB0FC143F4C410028CDD9 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 630BB0F6143F4C410028CDD9 /* Icon-72.png */; };
+		630BB0FD143F4C410028CDD9 /* Icon-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 630BB0F7143F4C410028CDD9 /* Icon-Small-50.png */; };
+		630BB0FE143F4C410028CDD9 /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = 630BB0F8143F4C410028CDD9 /* Icon-Small.png */; };
+		630BB0FF143F4C410028CDD9 /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 630BB0F9143F4C410028CDD9 /* Icon-Small@2x.png */; };
+		630BB100143F4C410028CDD9 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 630BB0FA143F4C410028CDD9 /* Icon.png */; };
+		630BB101143F4C410028CDD9 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 630BB0FB143F4C410028CDD9 /* Icon@2x.png */; };
+		630BB103143F4F340028CDD9 /* UserlikeLogo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 630BB102143F4F340028CDD9 /* UserlikeLogo@2x.png */; };
+		630BB105143F4FE80028CDD9 /* Chatbutton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 630BB104143F4FE80028CDD9 /* Chatbutton@2x.png */; };
+		631EFA62143E08E900FEF57A /* UserlikeApplicationConfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = 631EFA61143E08E900FEF57A /* UserlikeApplicationConfig.plist */; };
+		6335D810143F26BE006E9361 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6335D812143F26BE006E9361 /* MainWindow.xib */; };
+		6335D813143F270B006E9361 /* UserlikeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6335D815143F270B006E9361 /* UserlikeViewController.xib */; };
+		634B5A2D143C477C00605DBC /* UserlikeLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 634B5A2C143C477C00605DBC /* UserlikeLogo.png */; };
+		63A1282E143F321A00485C6C /* Chatbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = 63A1282D143F321A00485C6C /* Chatbutton.png */; };
+		63EEE104143F2B7100198FAC /* UserlikeDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63EEE105143F2B7100198FAC /* UserlikeDemoViewController.m */; };
+		63F410B714473CD5008D0F25 /* UserlikeClient.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63F410B614473CD5008D0F25 /* UserlikeClient.framework */; };
+		63F410C114473E33008D0F25 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63F410C014473E33008D0F25 /* CoreLocation.framework */; };
+		63F410C314473E3A008D0F25 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63F410C214473E3A008D0F25 /* CoreGraphics.framework */; };
+		63F410C514473E40008D0F25 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63F410C414473E40008D0F25 /* SystemConfiguration.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		63F410C714473E5E008D0F25 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 63F410C614473E5E008D0F25 /* libxml2.dylib */; };
+		63F410C914473EE3008D0F25 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63F410C814473EE3008D0F25 /* CFNetwork.framework */; };
+		63F410CB14473F02008D0F25 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63F410CA14473F02008D0F25 /* MobileCoreServices.framework */; };
+		63F410CD14473F1E008D0F25 /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 63F410CC14473F1E008D0F25 /* libicucore.dylib */; };
+		63F410CF14473F2A008D0F25 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 63F410CE14473F2A008D0F25 /* libz.dylib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* UserlikeDemoAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserlikeDemoAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* UserlikeDemoAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserlikeDemoAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* UserlikeDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UserlikeDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		28A0AAE50D9B0CCF005BE974 /* UserlikeDemo_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserlikeDemo_Prefix.pch; sourceTree = "<group>"; };
+		28C286DF0D94DF7D0034E888 /* UserlikeDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserlikeDemoViewController.h; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		630BB0F6143F4C410028CDD9 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-72.png"; path = "Images/Icon-72.png"; sourceTree = "<group>"; };
+		630BB0F7143F4C410028CDD9 /* Icon-Small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small-50.png"; path = "Images/Icon-Small-50.png"; sourceTree = "<group>"; };
+		630BB0F8143F4C410028CDD9 /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small.png"; path = "Images/Icon-Small.png"; sourceTree = "<group>"; };
+		630BB0F9143F4C410028CDD9 /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small@2x.png"; path = "Images/Icon-Small@2x.png"; sourceTree = "<group>"; };
+		630BB0FA143F4C410028CDD9 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = Images/Icon.png; sourceTree = "<group>"; };
+		630BB0FB143F4C410028CDD9 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon@2x.png"; path = "Images/Icon@2x.png"; sourceTree = "<group>"; };
+		630BB102143F4F340028CDD9 /* UserlikeLogo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "UserlikeLogo@2x.png"; path = "Images/UserlikeLogo@2x.png"; sourceTree = "<group>"; };
+		630BB104143F4FE80028CDD9 /* Chatbutton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Chatbutton@2x.png"; path = "Images/Chatbutton@2x.png"; sourceTree = "<group>"; };
+		631EFA61143E08E900FEF57A /* UserlikeApplicationConfig.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = UserlikeApplicationConfig.plist; sourceTree = "<group>"; };
+		6335D811143F26BE006E9361 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		6335D814143F270B006E9361 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/UserlikeViewController.xib; sourceTree = "<group>"; };
+		634B5A2C143C477C00605DBC /* UserlikeLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = UserlikeLogo.png; path = Images/UserlikeLogo.png; sourceTree = "<group>"; };
+		63A1282D143F321A00485C6C /* Chatbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Chatbutton.png; path = Images/Chatbutton.png; sourceTree = "<group>"; };
+		63A12832143F391500485C6C /* de */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = de; path = de.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		63EEE105143F2B7100198FAC /* UserlikeDemoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserlikeDemoViewController.m; sourceTree = "<group>"; };
+		63F410B614473CD5008D0F25 /* UserlikeClient.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserlikeClient.framework; path = "../../../Library/Developer/Xcode/DerivedData/UserlikeClient-anzrzwpcvkubdzewrhpprnxbhtkz/Build/Products/Debug-iphoneos/UserlikeClient.framework"; sourceTree = "<group>"; };
+		63F410C014473E33008D0F25 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		63F410C214473E3A008D0F25 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		63F410C414473E40008D0F25 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		63F410C614473E5E008D0F25 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		63F410C814473EE3008D0F25 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		63F410CA14473F02008D0F25 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		63F410CC14473F1E008D0F25 /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
+		63F410CE14473F2A008D0F25 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		8D1107310486CEB800E47090 /* UserlikeDemo-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "UserlikeDemo-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63F410CF14473F2A008D0F25 /* libz.dylib in Frameworks */,
+				63F410CD14473F1E008D0F25 /* libicucore.dylib in Frameworks */,
+				63F410C714473E5E008D0F25 /* libxml2.dylib in Frameworks */,
+				63F410CB14473F02008D0F25 /* MobileCoreServices.framework in Frameworks */,
+				63F410C914473EE3008D0F25 /* CFNetwork.framework in Frameworks */,
+				63F410C514473E40008D0F25 /* SystemConfiguration.framework in Frameworks */,
+				63F410C314473E3A008D0F25 /* CoreGraphics.framework in Frameworks */,
+				63F410C114473E33008D0F25 /* CoreLocation.framework in Frameworks */,
+				63F410B714473CD5008D0F25 /* UserlikeClient.framework in Frameworks */,
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				28C286DF0D94DF7D0034E888 /* UserlikeDemoViewController.h */,
+				63EEE105143F2B7100198FAC /* UserlikeDemoViewController.m */,
+				1D3623240D0F684500981E51 /* UserlikeDemoAppDelegate.h */,
+				1D3623250D0F684500981E51 /* UserlikeDemoAppDelegate.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* UserlikeDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				28A0AAE50D9B0CCF005BE974 /* UserlikeDemo_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				63AC875B14474271009918E6 /* Nib */,
+				63F410BF14473D70008D0F25 /* Images */,
+				631EFA61143E08E900FEF57A /* UserlikeApplicationConfig.plist */,
+				8D1107310486CEB800E47090 /* UserlikeDemo-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				63F410CE14473F2A008D0F25 /* libz.dylib */,
+				63F410CC14473F1E008D0F25 /* libicucore.dylib */,
+				63F410C614473E5E008D0F25 /* libxml2.dylib */,
+				63F410CA14473F02008D0F25 /* MobileCoreServices.framework */,
+				63F410C814473EE3008D0F25 /* CFNetwork.framework */,
+				63F410C414473E40008D0F25 /* SystemConfiguration.framework */,
+				63F410C214473E3A008D0F25 /* CoreGraphics.framework */,
+				63F410C014473E33008D0F25 /* CoreLocation.framework */,
+				63F410B614473CD5008D0F25 /* UserlikeClient.framework */,
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		63AC875B14474271009918E6 /* Nib */ = {
+			isa = PBXGroup;
+			children = (
+				6335D815143F270B006E9361 /* UserlikeViewController.xib */,
+				6335D812143F26BE006E9361 /* MainWindow.xib */,
+			);
+			name = Nib;
+			sourceTree = "<group>";
+		};
+		63F410BF14473D70008D0F25 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				630BB0F6143F4C410028CDD9 /* Icon-72.png */,
+				630BB0F7143F4C410028CDD9 /* Icon-Small-50.png */,
+				630BB0F8143F4C410028CDD9 /* Icon-Small.png */,
+				630BB0F9143F4C410028CDD9 /* Icon-Small@2x.png */,
+				630BB0FA143F4C410028CDD9 /* Icon.png */,
+				630BB0FB143F4C410028CDD9 /* Icon@2x.png */,
+				63A1282D143F321A00485C6C /* Chatbutton.png */,
+				630BB104143F4FE80028CDD9 /* Chatbutton@2x.png */,
+				634B5A2C143C477C00605DBC /* UserlikeLogo.png */,
+				630BB102143F4F340028CDD9 /* UserlikeLogo@2x.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* UserlikeDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "UserlikeDemo" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UserlikeDemo;
+			productName = PTConversationViewDemo;
+			productReference = 1D6058910D05DD3D006BFB54 /* UserlikeDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "UserlikeDemo" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+				en,
+				de,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* UserlikeDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6335D810143F26BE006E9361 /* MainWindow.xib in Resources */,
+				6335D813143F270B006E9361 /* UserlikeViewController.xib in Resources */,
+				634B5A2D143C477C00605DBC /* UserlikeLogo.png in Resources */,
+				631EFA62143E08E900FEF57A /* UserlikeApplicationConfig.plist in Resources */,
+				63A1282E143F321A00485C6C /* Chatbutton.png in Resources */,
+				630BB0FC143F4C410028CDD9 /* Icon-72.png in Resources */,
+				630BB0FD143F4C410028CDD9 /* Icon-Small-50.png in Resources */,
+				630BB0FE143F4C410028CDD9 /* Icon-Small.png in Resources */,
+				630BB0FF143F4C410028CDD9 /* Icon-Small@2x.png in Resources */,
+				630BB100143F4C410028CDD9 /* Icon.png in Resources */,
+				630BB101143F4C410028CDD9 /* Icon@2x.png in Resources */,
+				630BB103143F4F340028CDD9 /* UserlikeLogo@2x.png in Resources */,
+				630BB105143F4FE80028CDD9 /* Chatbutton@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* UserlikeDemoAppDelegate.m in Sources */,
+				63EEE104143F2B7100198FAC /* UserlikeDemoViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6335D812143F26BE006E9361 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6335D811143F26BE006E9361 /* en */,
+				63A12832143F391500485C6C /* de */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		6335D815143F270B006E9361 /* UserlikeViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6335D814143F270B006E9361 /* en */,
+			);
+			name = UserlikeViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../Library/Developer/Xcode/DerivedData/UserlikeClient-anzrzwpcvkubdzewrhpprnxbhtkz/Build/Products/Debug-iphoneos\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = UserlikeDemo_Prefix.pch;
+				HEADER_SEARCH_PATHS = ../Library;
+				"HEADER_SEARCH_PATHS[arch=*]" = ../Library;
+				INFOPLIST_FILE = "UserlikeDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.1;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../Library/build/Debug-iphonesimulator\"",
+					"\"$(SRCROOT)/../../../Library/Developer/Xcode/DerivedData/UserlikeDemo-ejftenskubrxaockaikguyisxiqc/Build/Products/Debug-iphonesimulator\"",
+				);
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
+				PRODUCT_NAME = UserlikeDemo;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../Library/Developer/Xcode/DerivedData/UserlikeClient-anzrzwpcvkubdzewrhpprnxbhtkz/Build/Products/Debug-iphoneos\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = UserlikeDemo_Prefix.pch;
+				HEADER_SEARCH_PATHS = ../Library;
+				INFOPLIST_FILE = "UserlikeDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.1;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../Library/build/Debug-iphonesimulator\"",
+					"\"$(SRCROOT)/../../../Library/Developer/Xcode/DerivedData/UserlikeDemo-ejftenskubrxaockaikguyisxiqc/Build/Products/Debug-iphonesimulator\"",
+				);
+				PRODUCT_NAME = UserlikeDemo;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: David Voswinkel (78Z2MM5M5L)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = ../PTConversationView/Classes;
+				PREBINDING = NO;
+				PROVISIONING_PROFILE = "96F43ACF-3378-4248-8EE0-BBA8632C880F";
+				SDKROOT = iphoneos4.2;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: David Voswinkel (78Z2MM5M5L)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = ../PTConversationView/Classes;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				PROVISIONING_PROFILE = "96F43ACF-3378-4248-8EE0-BBA8632C880F";
+				SDKROOT = iphoneos3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "UserlikeDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "UserlikeDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>app_key</key>
+	<string>b57f1861-980f-3b53-8a2f-e2c33a09f4a4</string>
+	<key>domain_api</key>
+	<string>box</string>
+	<key>domain_socketio</key>
+	<string>box</string>
+	<key>has_registration</key>
+	<false/>
+	<key>is_proactive</key>
+	<false/>
+	<key>lang</key>
+	<string>en</string>
+	<key>orientation</key>
+	<string>tl</string>
+	<key>proactive_message</key>
+	<string></string>
+	<key>proactive_timeout</key>
+	<integer>0</integer>
+	<key>socketio_port_http</key>
+	<integer>8080</integer>
+	<key>socketio_port_ssl</key>
+	<integer>8443</integer>
+	<key>support_chat_state</key>
+	<false/>
+	<key>support_offlinemode</key>
+	<false/>
+	<key>support_screenshot</key>
+	<false/>
+	<key>support_ssl</key>
+	<false/>
+	<key>widget_key</key>
+	<string>d4735e3a265e16eee03f59718b9b5d03019c07d8b6c51f90da3a666eec13ab35</string>
+</dict>
+</plist>
