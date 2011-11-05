@@ -1,23 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
 	<key>app_key</key>
-	<string>b57f1861-980f-3b53-8a2f-e2c33a09f4a4</string>
+	<string>9ab78f9c-4ebd-352e-b24e-528e3a8bd836</string>
 	<key>domain_api</key>
-	<string>box</string>
+	<string>userlike.dyndns.org</string>
 	<key>domain_socketio</key>
-	<string>box</string>
+	<string>userlike.dyndns.org</string>
 	<key>has_registration</key>
 	<false/>
 	<key>is_proactive</key>
 	<false/>
 	<key>lang</key>
 	<string>en</string>
-	<key>orientation</key>
-	<string>tl</string>
 	<key>proactive_message</key>
-	<string></string>
+	<false/>
 	<key>proactive_timeout</key>
 	<integer>0</integer>
 	<key>socketio_port_http</key>
