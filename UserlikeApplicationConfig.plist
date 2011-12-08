@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
 	<key>app_key</key>
-	<string>9ab78f9c-4ebd-352e-b24e-528e3a8bd836</string>
+	<string>a4e99b2f-2d7c-3785-ae0f-231eb2a7282a</string>
 	<key>domain_api</key>
-	<string>userlike.dyndns.org</string>
+	<string>userlike.com</string>
 	<key>domain_socketio</key>
-	<string>userlike.dyndns.org</string>
+	<string>userlike.com</string>
 	<key>has_registration</key>
 	<false/>
 	<key>is_proactive</key>
@@ -31,6 +31,6 @@
 	<key>support_ssl</key>
 	<false/>
 	<key>widget_key</key>
-	<string>d4735e3a265e16eee03f59718b9b5d03019c07d8b6c51f90da3a666eec13ab35</string>
+	<string>202264ef985dab52e4c39523ebc2546b7e7e668ab2dbb6f6f88649631d019769</string>
 </dict>
 </plist>
