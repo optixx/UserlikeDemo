@@ -11,6 +11,7 @@
 		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
 		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		63092B6014BF319900DC2E51 /* UserlikeClient.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63092B5F14BF319900DC2E51 /* UserlikeClient.framework */; };
 		630BB0FC143F4C410028CDD9 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 630BB0F6143F4C410028CDD9 /* Icon-72.png */; };
 		630BB0FD143F4C410028CDD9 /* Icon-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 630BB0F7143F4C410028CDD9 /* Icon-Small-50.png */; };
 		630BB0FE143F4C410028CDD9 /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = 630BB0F8143F4C410028CDD9 /* Icon-Small.png */; };
@@ -19,7 +20,6 @@
 		630BB101143F4C410028CDD9 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 630BB0FB143F4C410028CDD9 /* Icon@2x.png */; };
 		630BB103143F4F340028CDD9 /* UserlikeLogo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 630BB102143F4F340028CDD9 /* UserlikeLogo@2x.png */; };
 		630BB105143F4FE80028CDD9 /* Chatbutton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 630BB104143F4FE80028CDD9 /* Chatbutton@2x.png */; };
-		630CB6971489170E008FB5D4 /* UserlikeClient.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 630CB6961489170E008FB5D4 /* UserlikeClient.framework */; };
 		631EFA62143E08E900FEF57A /* UserlikeApplicationConfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = 631EFA61143E08E900FEF57A /* UserlikeApplicationConfig.plist */; };
 		6335D810143F26BE006E9361 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6335D812143F26BE006E9361 /* MainWindow.xib */; };
 		6335D813143F270B006E9361 /* UserlikeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6335D815143F270B006E9361 /* UserlikeViewController.xib */; };
@@ -46,6 +46,8 @@
 		28A0AAE50D9B0CCF005BE974 /* UserlikeDemo_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserlikeDemo_Prefix.pch; sourceTree = "<group>"; };
 		28C286DF0D94DF7D0034E888 /* UserlikeDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserlikeDemoViewController.h; sourceTree = "<group>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		63092B5F14BF319900DC2E51 /* UserlikeClient.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserlikeClient.framework; path = "../../../../../../Library/Developer/Xcode/DerivedData/UserlikeClient-agwsqvqhppzlioatkardkfkvrazc/Build/Products/Debug-iphoneos/UserlikeClient.framework"; sourceTree = "<group>"; };
+		63092B6214BF388500DC2E51 /* de */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = de; path = de.lproj/UserlikeViewController.xib; sourceTree = "<group>"; };
 		630BB0F6143F4C410028CDD9 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-72.png"; path = "Images/Icon-72.png"; sourceTree = "<group>"; };
 		630BB0F7143F4C410028CDD9 /* Icon-Small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small-50.png"; path = "Images/Icon-Small-50.png"; sourceTree = "<group>"; };
 		630BB0F8143F4C410028CDD9 /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small.png"; path = "Images/Icon-Small.png"; sourceTree = "<group>"; };
@@ -54,7 +56,6 @@
 		630BB0FB143F4C410028CDD9 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon@2x.png"; path = "Images/Icon@2x.png"; sourceTree = "<group>"; };
 		630BB102143F4F340028CDD9 /* UserlikeLogo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "UserlikeLogo@2x.png"; path = "Images/UserlikeLogo@2x.png"; sourceTree = "<group>"; };
 		630BB104143F4FE80028CDD9 /* Chatbutton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Chatbutton@2x.png"; path = "Images/Chatbutton@2x.png"; sourceTree = "<group>"; };
-		630CB6961489170E008FB5D4 /* UserlikeClient.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserlikeClient.framework; path = "../../../../../../Library/Developer/Xcode/DerivedData/UserlikeClient-agwsqvqhppzlioatkardkfkvrazc/Build/Products/Debug-iphoneos/UserlikeClient.framework"; sourceTree = "<group>"; };
 		631EFA61143E08E900FEF57A /* UserlikeApplicationConfig.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = UserlikeApplicationConfig.plist; sourceTree = "<group>"; };
 		6335D811143F26BE006E9361 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
 		6335D814143F270B006E9361 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/UserlikeViewController.xib; sourceTree = "<group>"; };
@@ -79,7 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				630CB6971489170E008FB5D4 /* UserlikeClient.framework in Frameworks */,
+				63092B6014BF319900DC2E51 /* UserlikeClient.framework in Frameworks */,
 				63F410CF14473F2A008D0F25 /* libz.dylib in Frameworks */,
 				63F410CD14473F1E008D0F25 /* libicucore.dylib in Frameworks */,
 				63F410C714473E5E008D0F25 /* libxml2.dylib in Frameworks */,
@@ -118,7 +119,7 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
-				630CB6961489170E008FB5D4 /* UserlikeClient.framework */,
+				63092B5F14BF319900DC2E51 /* UserlikeClient.framework */,
 				080E96DDFE201D6D7F000001 /* Classes */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
 				29B97317FDCFA39411CA2CEA /* Resources */,
@@ -283,15 +284,16 @@
 				63A12832143F391500485C6C /* de */,
 			);
 			name = MainWindow.xib;
-			sourceTree = "<group>";
+			sourceTree = SOURCE_ROOT;
 		};
 		6335D815143F270B006E9361 /* UserlikeViewController.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
 				6335D814143F270B006E9361 /* en */,
+				63092B6214BF388500DC2E51 /* de */,
 			);
 			name = UserlikeViewController.xib;
-			sourceTree = "<group>";
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXVariantGroup section */
 
@@ -301,6 +303,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: David Voswinkel (M7WCURZQL2)";
 				COPY_PHASE_STRIP = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -326,6 +329,7 @@
 					"-ObjC",
 				);
 				PRODUCT_NAME = UserlikeDemo;
+				PROVISIONING_PROFILE = "42AD0D1F-7F3F-4270-AFB3-83FDC56A8D20";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -336,6 +340,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: David Voswinkel (M7WCURZQL2)";
 				COPY_PHASE_STRIP = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -354,6 +359,7 @@
 					"\"$(SRCROOT)/../../../Library/Developer/Xcode/DerivedData/UserlikeDemo-ejftenskubrxaockaikguyisxiqc/Build/Products/Debug-iphonesimulator\"",
 				);
 				PRODUCT_NAME = UserlikeDemo;
+				PROVISIONING_PROFILE = "42AD0D1F-7F3F-4270-AFB3-83FDC56A8D20";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 1;
 				VALIDATE_PRODUCT = YES;
@@ -364,15 +370,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				CODE_SIGN_IDENTITY = "iPhone Developer: David Voswinkel (78Z2MM5M5L)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = ../PTConversationView/Classes;
 				IPHONEOS_DEPLOYMENT_TARGET = 4.1;
 				PREBINDING = NO;
-				PROVISIONING_PROFILE = "96F43ACF-3378-4248-8EE0-BBA8632C880F";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -381,8 +385,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				CODE_SIGN_IDENTITY = "iPhone Developer: David Voswinkel (78Z2MM5M5L)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
@@ -390,7 +393,6 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 4.1;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				PREBINDING = NO;
-				PROVISIONING_PROFILE = "96F43ACF-3378-4248-8EE0-BBA8632C880F";
 				SDKROOT = iphoneos;
 			};
 			name = Release;
