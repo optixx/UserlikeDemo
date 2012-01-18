@@ -27,6 +27,8 @@
 		63A1282E143F321A00485C6C /* Chatbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = 63A1282D143F321A00485C6C /* Chatbutton.png */; };
 		63C15FBF1449B84400A1D140 /* UserlikeClient.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 63C15FBE1449B84400A1D140 /* UserlikeClient.bundle */; };
 		63EEE104143F2B7100198FAC /* UserlikeDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63EEE105143F2B7100198FAC /* UserlikeDemoViewController.m */; };
+		63F0E69714C6E5CB006EEDAA /* forkme.png in Resources */ = {isa = PBXBuildFile; fileRef = 63F0E69514C6E5CB006EEDAA /* forkme.png */; };
+		63F0E69814C6E5CB006EEDAA /* forkme@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 63F0E69614C6E5CB006EEDAA /* forkme@2x.png */; };
 		63F410C114473E33008D0F25 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63F410C014473E33008D0F25 /* CoreLocation.framework */; };
 		63F410C314473E3A008D0F25 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63F410C214473E3A008D0F25 /* CoreGraphics.framework */; };
 		63F410C514473E40008D0F25 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63F410C414473E40008D0F25 /* SystemConfiguration.framework */; settings = {ATTRIBUTES = (Required, ); }; };
@@ -47,7 +49,6 @@
 		28C286DF0D94DF7D0034E888 /* UserlikeDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserlikeDemoViewController.h; sourceTree = "<group>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		63092B5F14BF319900DC2E51 /* UserlikeClient.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserlikeClient.framework; path = "../../../../../../Library/Developer/Xcode/DerivedData/UserlikeClient-agwsqvqhppzlioatkardkfkvrazc/Build/Products/Debug-iphoneos/UserlikeClient.framework"; sourceTree = "<group>"; };
-		63092B6214BF388500DC2E51 /* de */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = de; path = de.lproj/UserlikeViewController.xib; sourceTree = "<group>"; };
 		630BB0F6143F4C410028CDD9 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-72.png"; path = "Images/Icon-72.png"; sourceTree = "<group>"; };
 		630BB0F7143F4C410028CDD9 /* Icon-Small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small-50.png"; path = "Images/Icon-Small-50.png"; sourceTree = "<group>"; };
 		630BB0F8143F4C410028CDD9 /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small.png"; path = "Images/Icon-Small.png"; sourceTree = "<group>"; };
@@ -64,6 +65,9 @@
 		63A12832143F391500485C6C /* de */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = de; path = de.lproj/MainWindow.xib; sourceTree = "<group>"; };
 		63C15FBE1449B84400A1D140 /* UserlikeClient.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = UserlikeClient.bundle; path = ../UserlikeClient/UserlikeClient.bundle; sourceTree = "<group>"; };
 		63EEE105143F2B7100198FAC /* UserlikeDemoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserlikeDemoViewController.m; sourceTree = "<group>"; };
+		63F0E69514C6E5CB006EEDAA /* forkme.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = forkme.png; path = Images/forkme.png; sourceTree = "<group>"; };
+		63F0E69614C6E5CB006EEDAA /* forkme@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "forkme@2x.png"; path = "Images/forkme@2x.png"; sourceTree = "<group>"; };
+		63F0E69914C701CD006EEDAA /* de */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = de; path = de.lproj/UserlikeViewController.xib; sourceTree = "<group>"; };
 		63F410C014473E33008D0F25 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		63F410C214473E3A008D0F25 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		63F410C414473E40008D0F25 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
@@ -179,6 +183,8 @@
 		63F410BF14473D70008D0F25 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				63F0E69514C6E5CB006EEDAA /* forkme.png */,
+				63F0E69614C6E5CB006EEDAA /* forkme@2x.png */,
 				630BB0F6143F4C410028CDD9 /* Icon-72.png */,
 				630BB0F7143F4C410028CDD9 /* Icon-Small-50.png */,
 				630BB0F8143F4C410028CDD9 /* Icon-Small.png */,
@@ -258,6 +264,8 @@
 				630BB103143F4F340028CDD9 /* UserlikeLogo@2x.png in Resources */,
 				630BB105143F4FE80028CDD9 /* Chatbutton@2x.png in Resources */,
 				63C15FBF1449B84400A1D140 /* UserlikeClient.bundle in Resources */,
+				63F0E69714C6E5CB006EEDAA /* forkme.png in Resources */,
+				63F0E69814C6E5CB006EEDAA /* forkme@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,7 +298,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				6335D814143F270B006E9361 /* en */,
-				63092B6214BF388500DC2E51 /* de */,
+				63F0E69914C701CD006EEDAA /* de */,
 			);
 			name = UserlikeViewController.xib;
 			sourceTree = SOURCE_ROOT;

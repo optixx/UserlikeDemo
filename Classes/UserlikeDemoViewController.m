@@ -37,6 +37,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    if (self.view.frame.origin.y == 0.0) {
+        self.view.frame = CGRectOffset(self.view.frame, 0.0,20.0);
+    }
 }
 
 - (void)didReceiveMemoryWarning {
@@ -52,9 +55,14 @@
     [self presentModalViewController:userlikeChatController animated:YES];
 }
 
-- (IBAction)openWebsite:(id)sender {
+- (IBAction)openWebsiteUserlike:(id)sender {
     [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"http://www.userlike.com"]];
 }
+
+- (IBAction)openWebsiteGithub:(id)sender {
+    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"https://github.com/userlike/Userlike-iOS-Demo"]];
+}
+
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {
     return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);

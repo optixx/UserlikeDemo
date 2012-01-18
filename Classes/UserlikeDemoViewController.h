@@ -37,7 +37,8 @@
     UserlikeChatController *userlikeChatController;
 }
 - (IBAction)startChat:(id)sender;
-- (IBAction)openWebsite:(id)sender;
+- (IBAction)openWebsiteUserlike:(id)sender;
+- (IBAction)openWebsiteGithub:(id)sender;
 
 @property (nonatomic, retain) UserlikeChatController *userlikeChatController;
 
