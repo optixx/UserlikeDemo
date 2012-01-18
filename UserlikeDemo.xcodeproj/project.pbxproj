@@ -11,7 +11,6 @@
 		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
 		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
-		63092B6014BF319900DC2E51 /* UserlikeClient.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63092B5F14BF319900DC2E51 /* UserlikeClient.framework */; };
 		630BB0FC143F4C410028CDD9 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 630BB0F6143F4C410028CDD9 /* Icon-72.png */; };
 		630BB0FD143F4C410028CDD9 /* Icon-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 630BB0F7143F4C410028CDD9 /* Icon-Small-50.png */; };
 		630BB0FE143F4C410028CDD9 /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = 630BB0F8143F4C410028CDD9 /* Icon-Small.png */; };
@@ -29,6 +28,7 @@
 		63EEE104143F2B7100198FAC /* UserlikeDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63EEE105143F2B7100198FAC /* UserlikeDemoViewController.m */; };
 		63F0E69714C6E5CB006EEDAA /* forkme.png in Resources */ = {isa = PBXBuildFile; fileRef = 63F0E69514C6E5CB006EEDAA /* forkme.png */; };
 		63F0E69814C6E5CB006EEDAA /* forkme@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 63F0E69614C6E5CB006EEDAA /* forkme@2x.png */; };
+		63F0E69F14C73871006EEDAA /* UserlikeClient.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63F0E69E14C73870006EEDAA /* UserlikeClient.framework */; };
 		63F410C114473E33008D0F25 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63F410C014473E33008D0F25 /* CoreLocation.framework */; };
 		63F410C314473E3A008D0F25 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63F410C214473E3A008D0F25 /* CoreGraphics.framework */; };
 		63F410C514473E40008D0F25 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63F410C414473E40008D0F25 /* SystemConfiguration.framework */; settings = {ATTRIBUTES = (Required, ); }; };
@@ -48,7 +48,6 @@
 		28A0AAE50D9B0CCF005BE974 /* UserlikeDemo_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserlikeDemo_Prefix.pch; sourceTree = "<group>"; };
 		28C286DF0D94DF7D0034E888 /* UserlikeDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserlikeDemoViewController.h; sourceTree = "<group>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		63092B5F14BF319900DC2E51 /* UserlikeClient.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserlikeClient.framework; path = "../../../../../../Library/Developer/Xcode/DerivedData/UserlikeClient-agwsqvqhppzlioatkardkfkvrazc/Build/Products/Debug-iphoneos/UserlikeClient.framework"; sourceTree = "<group>"; };
 		630BB0F6143F4C410028CDD9 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-72.png"; path = "Images/Icon-72.png"; sourceTree = "<group>"; };
 		630BB0F7143F4C410028CDD9 /* Icon-Small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small-50.png"; path = "Images/Icon-Small-50.png"; sourceTree = "<group>"; };
 		630BB0F8143F4C410028CDD9 /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small.png"; path = "Images/Icon-Small.png"; sourceTree = "<group>"; };
@@ -68,6 +67,7 @@
 		63F0E69514C6E5CB006EEDAA /* forkme.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = forkme.png; path = Images/forkme.png; sourceTree = "<group>"; };
 		63F0E69614C6E5CB006EEDAA /* forkme@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "forkme@2x.png"; path = "Images/forkme@2x.png"; sourceTree = "<group>"; };
 		63F0E69914C701CD006EEDAA /* de */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = de; path = de.lproj/UserlikeViewController.xib; sourceTree = "<group>"; };
+		63F0E69E14C73870006EEDAA /* UserlikeClient.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserlikeClient.framework; path = "../../../../../../Library/Developer/Xcode/DerivedData/UserlikeClient-agwsqvqhppzlioatkardkfkvrazc/Build/Products/Debug-iphoneos/UserlikeClient.framework"; sourceTree = "<group>"; };
 		63F410C014473E33008D0F25 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		63F410C214473E3A008D0F25 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		63F410C414473E40008D0F25 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
@@ -84,7 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				63092B6014BF319900DC2E51 /* UserlikeClient.framework in Frameworks */,
+				63F0E69F14C73871006EEDAA /* UserlikeClient.framework in Frameworks */,
 				63F410CF14473F2A008D0F25 /* libz.dylib in Frameworks */,
 				63F410CD14473F1E008D0F25 /* libicucore.dylib in Frameworks */,
 				63F410C714473E5E008D0F25 /* libxml2.dylib in Frameworks */,
@@ -123,7 +123,7 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
-				63092B5F14BF319900DC2E51 /* UserlikeClient.framework */,
+				63F0E69E14C73870006EEDAA /* UserlikeClient.framework */,
 				080E96DDFE201D6D7F000001 /* Classes */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
 				29B97317FDCFA39411CA2CEA /* Resources */,
@@ -315,9 +315,7 @@
 				COPY_PHASE_STRIP = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)/../../../Library/Developer/Xcode/DerivedData/UserlikeClient-anzrzwpcvkubdzewrhpprnxbhtkz/Build/Products/Debug-iphoneos\"",
 					"\"$(SRCROOT)/../../../../../../Library/Developer/Xcode/DerivedData/UserlikeClient-agwsqvqhppzlioatkardkfkvrazc/Build/Products/Debug-iphoneos\"",
-					"\"$(SRCROOT)/../../../../../../Library/Developer/Xcode/DerivedData/UserlikeClient-agwsqvqhppzlioatkardkfkvrazc/Build/Products/Debug-iphonesimulator\"",
 				);
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -327,11 +325,7 @@
 				"HEADER_SEARCH_PATHS[arch=*]" = ../Library;
 				INFOPLIST_FILE = "UserlikeDemo-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/../Library/build/Debug-iphonesimulator\"",
-					"\"$(SRCROOT)/../../../Library/Developer/Xcode/DerivedData/UserlikeDemo-ejftenskubrxaockaikguyisxiqc/Build/Products/Debug-iphonesimulator\"",
-				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				OTHER_LDFLAGS = (
 					"-all_load",
 					"-ObjC",
@@ -352,20 +346,14 @@
 				COPY_PHASE_STRIP = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)/../../../Library/Developer/Xcode/DerivedData/UserlikeClient-anzrzwpcvkubdzewrhpprnxbhtkz/Build/Products/Debug-iphoneos\"",
 					"\"$(SRCROOT)/../../../../../../Library/Developer/Xcode/DerivedData/UserlikeClient-agwsqvqhppzlioatkardkfkvrazc/Build/Products/Debug-iphoneos\"",
-					"\"$(SRCROOT)/../../../../../../Library/Developer/Xcode/DerivedData/UserlikeClient-agwsqvqhppzlioatkardkfkvrazc/Build/Products/Debug-iphonesimulator\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = UserlikeDemo_Prefix.pch;
 				HEADER_SEARCH_PATHS = ../Library;
 				INFOPLIST_FILE = "UserlikeDemo-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/../Library/build/Debug-iphonesimulator\"",
-					"\"$(SRCROOT)/../../../Library/Developer/Xcode/DerivedData/UserlikeDemo-ejftenskubrxaockaikguyisxiqc/Build/Products/Debug-iphonesimulator\"",
-				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				PRODUCT_NAME = UserlikeDemo;
 				PROVISIONING_PROFILE = "42AD0D1F-7F3F-4270-AFB3-83FDC56A8D20";
 				SDKROOT = iphoneos;
