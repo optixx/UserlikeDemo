@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 45;
+	objectVersion = 46;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -28,7 +28,7 @@
 		63EEE104143F2B7100198FAC /* UserlikeDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63EEE105143F2B7100198FAC /* UserlikeDemoViewController.m */; };
 		63F0E69714C6E5CB006EEDAA /* forkme.png in Resources */ = {isa = PBXBuildFile; fileRef = 63F0E69514C6E5CB006EEDAA /* forkme.png */; };
 		63F0E69814C6E5CB006EEDAA /* forkme@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 63F0E69614C6E5CB006EEDAA /* forkme@2x.png */; };
-		63F0E69F14C73871006EEDAA /* UserlikeClient.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63F0E69E14C73870006EEDAA /* UserlikeClient.framework */; };
+		63F0E6A114C7395B006EEDAA /* UserlikeClient.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63F0E6A014C7395B006EEDAA /* UserlikeClient.framework */; };
 		63F410C114473E33008D0F25 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63F410C014473E33008D0F25 /* CoreLocation.framework */; };
 		63F410C314473E3A008D0F25 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63F410C214473E3A008D0F25 /* CoreGraphics.framework */; };
 		63F410C514473E40008D0F25 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63F410C414473E40008D0F25 /* SystemConfiguration.framework */; settings = {ATTRIBUTES = (Required, ); }; };
@@ -43,7 +43,7 @@
 		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1D3623240D0F684500981E51 /* UserlikeDemoAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserlikeDemoAppDelegate.h; sourceTree = "<group>"; };
 		1D3623250D0F684500981E51 /* UserlikeDemoAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserlikeDemoAppDelegate.m; sourceTree = "<group>"; };
-		1D6058910D05DD3D006BFB54 /* UserlikeDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UserlikeDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D6058910D05DD3D006BFB54 /* UserlikeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UserlikeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		28A0AAE50D9B0CCF005BE974 /* UserlikeDemo_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserlikeDemo_Prefix.pch; sourceTree = "<group>"; };
 		28C286DF0D94DF7D0034E888 /* UserlikeDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserlikeDemoViewController.h; sourceTree = "<group>"; };
@@ -67,7 +67,7 @@
 		63F0E69514C6E5CB006EEDAA /* forkme.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = forkme.png; path = Images/forkme.png; sourceTree = "<group>"; };
 		63F0E69614C6E5CB006EEDAA /* forkme@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "forkme@2x.png"; path = "Images/forkme@2x.png"; sourceTree = "<group>"; };
 		63F0E69914C701CD006EEDAA /* de */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = de; path = de.lproj/UserlikeViewController.xib; sourceTree = "<group>"; };
-		63F0E69E14C73870006EEDAA /* UserlikeClient.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserlikeClient.framework; path = "../../../../../../Library/Developer/Xcode/DerivedData/UserlikeClient-agwsqvqhppzlioatkardkfkvrazc/Build/Products/Debug-iphoneos/UserlikeClient.framework"; sourceTree = "<group>"; };
+		63F0E6A014C7395B006EEDAA /* UserlikeClient.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserlikeClient.framework; path = "../../../../../../Library/Developer/Xcode/DerivedData/UserlikeClient-agwsqvqhppzlioatkardkfkvrazc/Build/Products/Release-iphoneos/UserlikeClient.framework"; sourceTree = "<group>"; };
 		63F410C014473E33008D0F25 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		63F410C214473E3A008D0F25 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		63F410C414473E40008D0F25 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
@@ -76,7 +76,7 @@
 		63F410CA14473F02008D0F25 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		63F410CC14473F1E008D0F25 /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
 		63F410CE14473F2A008D0F25 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
-		8D1107310486CEB800E47090 /* UserlikeDemo-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "UserlikeDemo-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* UserlikeApp-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "UserlikeApp-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,7 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				63F0E69F14C73871006EEDAA /* UserlikeClient.framework in Frameworks */,
+				63F0E6A114C7395B006EEDAA /* UserlikeClient.framework in Frameworks */,
 				63F410CF14473F2A008D0F25 /* libz.dylib in Frameworks */,
 				63F410CD14473F1E008D0F25 /* libicucore.dylib in Frameworks */,
 				63F410C714473E5E008D0F25 /* libxml2.dylib in Frameworks */,
@@ -115,7 +115,7 @@
 		19C28FACFE9D520D11CA2CBB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1D6058910D05DD3D006BFB54 /* UserlikeDemo.app */,
+				1D6058910D05DD3D006BFB54 /* UserlikeApp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -123,7 +123,7 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
-				63F0E69E14C73870006EEDAA /* UserlikeClient.framework */,
+				63F0E6A014C7395B006EEDAA /* UserlikeClient.framework */,
 				080E96DDFE201D6D7F000001 /* Classes */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
 				29B97317FDCFA39411CA2CEA /* Resources */,
@@ -149,7 +149,7 @@
 				63AC875B14474271009918E6 /* Nib */,
 				63F410BF14473D70008D0F25 /* Images */,
 				631EFA61143E08E900FEF57A /* UserlikeApplicationConfig.plist */,
-				8D1107310486CEB800E47090 /* UserlikeDemo-Info.plist */,
+				8D1107310486CEB800E47090 /* UserlikeApp-Info.plist */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -216,7 +216,7 @@
 			);
 			name = UserlikeDemo;
 			productName = PTConversationViewDemo;
-			productReference = 1D6058910D05DD3D006BFB54 /* UserlikeDemo.app */;
+			productReference = 1D6058910D05DD3D006BFB54 /* UserlikeApp.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -224,8 +224,11 @@
 /* Begin PBXProject section */
 		29B97313FDCFA39411CA2CEA /* Project object */ = {
 			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
 			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "UserlikeDemo" */;
-			compatibilityVersion = "Xcode 3.1";
+			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 1;
 			knownRegions = (
@@ -311,11 +314,12 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
-				CODE_SIGN_IDENTITY = "iPhone Developer: David Voswinkel (M7WCURZQL2)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				COPY_PHASE_STRIP = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/../../../../../../Library/Developer/Xcode/DerivedData/UserlikeClient-agwsqvqhppzlioatkardkfkvrazc/Build/Products/Debug-iphoneos\"",
+					"\"$(SRCROOT)/../../../../../../Library/Developer/Xcode/DerivedData/UserlikeClient-agwsqvqhppzlioatkardkfkvrazc/Build/Products/Release-iphoneos\"",
 				);
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -323,15 +327,15 @@
 				GCC_PREFIX_HEADER = UserlikeDemo_Prefix.pch;
 				HEADER_SEARCH_PATHS = ../Library;
 				"HEADER_SEARCH_PATHS[arch=*]" = ../Library;
-				INFOPLIST_FILE = "UserlikeDemo-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				INFOPLIST_FILE = "UserlikeApp-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				OTHER_LDFLAGS = (
 					"-all_load",
 					"-ObjC",
 				);
-				PRODUCT_NAME = UserlikeDemo;
-				PROVISIONING_PROFILE = "42AD0D1F-7F3F-4270-AFB3-83FDC56A8D20";
+				PRODUCT_NAME = UserlikeApp;
+				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -342,20 +346,21 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
-				CODE_SIGN_IDENTITY = "iPhone Developer: David Voswinkel (M7WCURZQL2)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				COPY_PHASE_STRIP = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/../../../../../../Library/Developer/Xcode/DerivedData/UserlikeClient-agwsqvqhppzlioatkardkfkvrazc/Build/Products/Debug-iphoneos\"",
+					"\"$(SRCROOT)/../../../../../../Library/Developer/Xcode/DerivedData/UserlikeClient-agwsqvqhppzlioatkardkfkvrazc/Build/Products/Release-iphoneos\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = UserlikeDemo_Prefix.pch;
 				HEADER_SEARCH_PATHS = ../Library;
-				INFOPLIST_FILE = "UserlikeDemo-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				INFOPLIST_FILE = "UserlikeApp-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
-				PRODUCT_NAME = UserlikeDemo;
-				PROVISIONING_PROFILE = "42AD0D1F-7F3F-4270-AFB3-83FDC56A8D20";
+				PRODUCT_NAME = UserlikeApp;
+				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 1;
 				VALIDATE_PRODUCT = YES;
@@ -366,13 +371,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = ../PTConversationView/Classes;
-				IPHONEOS_DEPLOYMENT_TARGET = 4.1;
-				PREBINDING = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -381,14 +386,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = ../PTConversationView/Classes;
-				IPHONEOS_DEPLOYMENT_TARGET = 4.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
-				PREBINDING = NO;
+				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
 			};
 			name = Release;
